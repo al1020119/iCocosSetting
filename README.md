@@ -5,8 +5,8 @@
 
 
 版权声明：欢迎转载，请贴上源地址：
-* http://al1020119.github.io/(博客最新地址)
-* http://www.cnblogs.com/iCocos/（iOS梦工厂）
+*(博客最新地址)： http://al1020119.github.io/
+*（iOS梦工厂）： http://www.cnblogs.com/iCocos/
 
 QQ：2211523682
 
