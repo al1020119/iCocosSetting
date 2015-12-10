@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B512B21F1BF9DB9900AA4AE2 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B512B21E1BF9DB9900AA4AE2 /* UIView+Extension.m */; };
+		B512B2221BF9DD1800AA4AE2 /* detail_good_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B512B2201BF9DD1800AA4AE2 /* detail_good_right@2x.png */; };
+		B512B2231BF9DD1800AA4AE2 /* detail_good_right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B512B2211BF9DD1800AA4AE2 /* detail_good_right@3x.png */; };
+		B512B2251BF9DD5A00AA4AE2 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = B512B2241BF9DD5A00AA4AE2 /* 01.png */; };
+		B512B2271BF9DDA700AA4AE2 /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = B512B2261BF9DDA700AA4AE2 /* 02.png */; };
+		B54C746A1BF9D9C700446625 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B54C74691BF9D9C700446625 /* main.m */; };
+		B54C746D1BF9D9C700446625 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B54C746C1BF9D9C700446625 /* AppDelegate.m */; };
+		B54C74701BF9D9C700446625 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54C746F1BF9D9C700446625 /* ViewController.m */; };
+		B54C74731BF9D9C700446625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B54C74711BF9D9C700446625 /* Main.storyboard */; };
+		B54C74751BF9D9C700446625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B54C74741BF9D9C700446625 /* Assets.xcassets */; };
+		B54C74781BF9D9C700446625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B54C74761BF9D9C700446625 /* LaunchScreen.storyboard */; };
+		B54C74831BF9D9C700446625 /* iCocos_SettingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B54C74821BF9D9C700446625 /* iCocos_SettingTests.m */; };
+		B54C748E1BF9D9C700446625 /* iCocos_SettingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B54C748D1BF9D9C700446625 /* iCocos_SettingUITests.m */; };
+		B54C74A71BF9D9CF00446625 /* iCocosBaseSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54C749E1BF9D9CF00446625 /* iCocosBaseSettingViewController.m */; };
+		B54C74A81BF9D9CF00446625 /* iCocosSettingGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = B54C74A11BF9D9CF00446625 /* iCocosSettingGroup.m */; };
+		B54C74A91BF9D9CF00446625 /* iCocosSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B54C74A31BF9D9CF00446625 /* iCocosSettingItem.m */; };
+		B54C74AA1BF9D9CF00446625 /* iCocosSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B54C74A61BF9D9CF00446625 /* iCocosSettingCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B54C747F1BF9D9C700446625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B54C745D1BF9D9C700446625 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B54C74641BF9D9C700446625;
+			remoteInfo = "iCocos－Setting";
+		};
+		B54C748A1BF9D9C700446625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B54C745D1BF9D9C700446625 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B54C74641BF9D9C700446625;
+			remoteInfo = "iCocos－Setting";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B512B21D1BF9DB9900AA4AE2 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		B512B21E1BF9DB9900AA4AE2 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		B512B2201BF9DD1800AA4AE2 /* detail_good_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "detail_good_right@2x.png"; sourceTree = "<group>"; };
+		B512B2211BF9DD1800AA4AE2 /* detail_good_right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "detail_good_right@3x.png"; sourceTree = "<group>"; };
+		B512B2241BF9DD5A00AA4AE2 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		B512B2261BF9DDA700AA4AE2 /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
+		B54C74651BF9D9C700446625 /* iCocos－Setting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iCocos－Setting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54C74691BF9D9C700446625 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B54C746B1BF9D9C700446625 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B54C746C1BF9D9C700446625 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B54C746E1BF9D9C700446625 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B54C746F1BF9D9C700446625 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B54C74721BF9D9C700446625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B54C74741BF9D9C700446625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B54C74771BF9D9C700446625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B54C74791BF9D9C700446625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B54C747E1BF9D9C700446625 /* iCocos－SettingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iCocos－SettingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54C74821BF9D9C700446625 /* iCocos_SettingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCocos_SettingTests.m; sourceTree = "<group>"; };
+		B54C74841BF9D9C700446625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B54C74891BF9D9C700446625 /* iCocos－SettingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iCocos－SettingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54C748D1BF9D9C700446625 /* iCocos_SettingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCocos_SettingUITests.m; sourceTree = "<group>"; };
+		B54C748F1BF9D9C700446625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B54C749D1BF9D9CF00446625 /* iCocosBaseSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCocosBaseSettingViewController.h; sourceTree = "<group>"; };
+		B54C749E1BF9D9CF00446625 /* iCocosBaseSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCocosBaseSettingViewController.m; sourceTree = "<group>"; };
+		B54C74A01BF9D9CF00446625 /* iCocosSettingGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCocosSettingGroup.h; sourceTree = "<group>"; };
+		B54C74A11BF9D9CF00446625 /* iCocosSettingGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCocosSettingGroup.m; sourceTree = "<group>"; };
+		B54C74A21BF9D9CF00446625 /* iCocosSettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCocosSettingItem.h; sourceTree = "<group>"; };
+		B54C74A31BF9D9CF00446625 /* iCocosSettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCocosSettingItem.m; sourceTree = "<group>"; };
+		B54C74A51BF9D9CF00446625 /* iCocosSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCocosSettingCell.h; sourceTree = "<group>"; };
+		B54C74A61BF9D9CF00446625 /* iCocosSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCocosSettingCell.m; sourceTree = "<group>"; };
+		B5991E991BFA3818003F7036 /* ReadMe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReadMe.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B54C74621BF9D9C700446625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54C747B1BF9D9C700446625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54C74861BF9D9C700446625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B512B21C1BF9DB9000AA4AE2 /* Catagory */ = {
+			isa = PBXGroup;
+			children = (
+				B512B21D1BF9DB9900AA4AE2 /* UIView+Extension.h */,
+				B512B21E1BF9DB9900AA4AE2 /* UIView+Extension.m */,
+			);
+			path = Catagory;
+			sourceTree = "<group>";
+		};
+		B54C745C1BF9D9C700446625 = {
+			isa = PBXGroup;
+			children = (
+				B54C74671BF9D9C700446625 /* iCocos－Setting */,
+				B54C74811BF9D9C700446625 /* iCocos－SettingTests */,
+				B54C748C1BF9D9C700446625 /* iCocos－SettingUITests */,
+				B54C74661BF9D9C700446625 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B54C74661BF9D9C700446625 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B54C74651BF9D9C700446625 /* iCocos－Setting.app */,
+				B54C747E1BF9D9C700446625 /* iCocos－SettingTests.xctest */,
+				B54C74891BF9D9C700446625 /* iCocos－SettingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B54C74671BF9D9C700446625 /* iCocos－Setting */ = {
+			isa = PBXGroup;
+			children = (
+				B5991E991BFA3818003F7036 /* ReadMe.h */,
+				B54C749B1BF9D9CF00446625 /* iCocosBasic */,
+				B54C746B1BF9D9C700446625 /* AppDelegate.h */,
+				B54C746C1BF9D9C700446625 /* AppDelegate.m */,
+				B54C746E1BF9D9C700446625 /* ViewController.h */,
+				B54C746F1BF9D9C700446625 /* ViewController.m */,
+				B54C74711BF9D9C700446625 /* Main.storyboard */,
+				B54C74741BF9D9C700446625 /* Assets.xcassets */,
+				B54C74761BF9D9C700446625 /* LaunchScreen.storyboard */,
+				B54C74791BF9D9C700446625 /* Info.plist */,
+				B54C74681BF9D9C700446625 /* Supporting Files */,
+			);
+			path = "iCocos－Setting";
+			sourceTree = "<group>";
+		};
+		B54C74681BF9D9C700446625 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B54C74691BF9D9C700446625 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B54C74811BF9D9C700446625 /* iCocos－SettingTests */ = {
+			isa = PBXGroup;
+			children = (
+				B54C74821BF9D9C700446625 /* iCocos_SettingTests.m */,
+				B54C74841BF9D9C700446625 /* Info.plist */,
+			);
+			path = "iCocos－SettingTests";
+			sourceTree = "<group>";
+		};
+		B54C748C1BF9D9C700446625 /* iCocos－SettingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B54C748D1BF9D9C700446625 /* iCocos_SettingUITests.m */,
+				B54C748F1BF9D9C700446625 /* Info.plist */,
+			);
+			path = "iCocos－SettingUITests";
+			sourceTree = "<group>";
+		};
+		B54C749B1BF9D9CF00446625 /* iCocosBasic */ = {
+			isa = PBXGroup;
+			children = (
+				B512B2201BF9DD1800AA4AE2 /* detail_good_right@2x.png */,
+				B512B2211BF9DD1800AA4AE2 /* detail_good_right@3x.png */,
+				B512B2241BF9DD5A00AA4AE2 /* 01.png */,
+				B512B2261BF9DDA700AA4AE2 /* 02.png */,
+				B512B21C1BF9DB9000AA4AE2 /* Catagory */,
+				B54C749C1BF9D9CF00446625 /* Controller */,
+				B54C749F1BF9D9CF00446625 /* Model */,
+				B54C74A41BF9D9CF00446625 /* View */,
+			);
+			path = iCocosBasic;
+			sourceTree = "<group>";
+		};
+		B54C749C1BF9D9CF00446625 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B54C749D1BF9D9CF00446625 /* iCocosBaseSettingViewController.h */,
+				B54C749E1BF9D9CF00446625 /* iCocosBaseSettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B54C749F1BF9D9CF00446625 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B54C74A01BF9D9CF00446625 /* iCocosSettingGroup.h */,
+				B54C74A11BF9D9CF00446625 /* iCocosSettingGroup.m */,
+				B54C74A21BF9D9CF00446625 /* iCocosSettingItem.h */,
+				B54C74A31BF9D9CF00446625 /* iCocosSettingItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B54C74A41BF9D9CF00446625 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B54C74A51BF9D9CF00446625 /* iCocosSettingCell.h */,
+				B54C74A61BF9D9CF00446625 /* iCocosSettingCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B54C74641BF9D9C700446625 /* iCocos－Setting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B54C74921BF9D9C700446625 /* Build configuration list for PBXNativeTarget "iCocos－Setting" */;
+			buildPhases = (
+				B54C74611BF9D9C700446625 /* Sources */,
+				B54C74621BF9D9C700446625 /* Frameworks */,
+				B54C74631BF9D9C700446625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iCocos－Setting";
+			productName = "iCocos－Setting";
+			productReference = B54C74651BF9D9C700446625 /* iCocos－Setting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B54C747D1BF9D9C700446625 /* iCocos－SettingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B54C74951BF9D9C700446625 /* Build configuration list for PBXNativeTarget "iCocos－SettingTests" */;
+			buildPhases = (
+				B54C747A1BF9D9C700446625 /* Sources */,
+				B54C747B1BF9D9C700446625 /* Frameworks */,
+				B54C747C1BF9D9C700446625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B54C74801BF9D9C700446625 /* PBXTargetDependency */,
+			);
+			name = "iCocos－SettingTests";
+			productName = "iCocos－SettingTests";
+			productReference = B54C747E1BF9D9C700446625 /* iCocos－SettingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B54C74881BF9D9C700446625 /* iCocos－SettingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B54C74981BF9D9C700446625 /* Build configuration list for PBXNativeTarget "iCocos－SettingUITests" */;
+			buildPhases = (
+				B54C74851BF9D9C700446625 /* Sources */,
+				B54C74861BF9D9C700446625 /* Frameworks */,
+				B54C74871BF9D9C700446625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B54C748B1BF9D9C700446625 /* PBXTargetDependency */,
+			);
+			name = "iCocos－SettingUITests";
+			productName = "iCocos－SettingUITests";
+			productReference = B54C74891BF9D9C700446625 /* iCocos－SettingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B54C745D1BF9D9C700446625 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = caolipeng;
+				TargetAttributes = {
+					B54C74641BF9D9C700446625 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					B54C747D1BF9D9C700446625 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = B54C74641BF9D9C700446625;
+					};
+					B54C74881BF9D9C700446625 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = B54C74641BF9D9C700446625;
+					};
+				};
+			};
+			buildConfigurationList = B54C74601BF9D9C700446625 /* Build configuration list for PBXProject "iCocos－Setting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B54C745C1BF9D9C700446625;
+			productRefGroup = B54C74661BF9D9C700446625 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B54C74641BF9D9C700446625 /* iCocos－Setting */,
+				B54C747D1BF9D9C700446625 /* iCocos－SettingTests */,
+				B54C74881BF9D9C700446625 /* iCocos－SettingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B54C74631BF9D9C700446625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B512B2251BF9DD5A00AA4AE2 /* 01.png in Resources */,
+				B54C74781BF9D9C700446625 /* LaunchScreen.storyboard in Resources */,
+				B512B2221BF9DD1800AA4AE2 /* detail_good_right@2x.png in Resources */,
+				B512B2271BF9DDA700AA4AE2 /* 02.png in Resources */,
+				B54C74751BF9D9C700446625 /* Assets.xcassets in Resources */,
+				B54C74731BF9D9C700446625 /* Main.storyboard in Resources */,
+				B512B2231BF9DD1800AA4AE2 /* detail_good_right@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54C747C1BF9D9C700446625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54C74871BF9D9C700446625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B54C74611BF9D9C700446625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54C74A71BF9D9CF00446625 /* iCocosBaseSettingViewController.m in Sources */,
+				B54C74AA1BF9D9CF00446625 /* iCocosSettingCell.m in Sources */,
+				B54C74701BF9D9C700446625 /* ViewController.m in Sources */,
+				B54C746D1BF9D9C700446625 /* AppDelegate.m in Sources */,
+				B54C74A81BF9D9CF00446625 /* iCocosSettingGroup.m in Sources */,
+				B54C746A1BF9D9C700446625 /* main.m in Sources */,
+				B512B21F1BF9DB9900AA4AE2 /* UIView+Extension.m in Sources */,
+				B54C74A91BF9D9CF00446625 /* iCocosSettingItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54C747A1BF9D9C700446625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54C74831BF9D9C700446625 /* iCocos_SettingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54C74851BF9D9C700446625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54C748E1BF9D9C700446625 /* iCocos_SettingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B54C74801BF9D9C700446625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B54C74641BF9D9C700446625 /* iCocos－Setting */;
+			targetProxy = B54C747F1BF9D9C700446625 /* PBXContainerItemProxy */;
+		};
+		B54C748B1BF9D9C700446625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B54C74641BF9D9C700446625 /* iCocos－Setting */;
+			targetProxy = B54C748A1BF9D9C700446625 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B54C74711BF9D9C700446625 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B54C74721BF9D9C700446625 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B54C74761BF9D9C700446625 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B54C74771BF9D9C700446625 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B54C74901BF9D9C700446625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B54C74911BF9D9C700446625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B54C74931BF9D9C700446625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iCocos－Setting/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iCocos.iCocos-Setting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B54C74941BF9D9C700446625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iCocos－Setting/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iCocos.iCocos-Setting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B54C74961BF9D9C700446625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iCocos－SettingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iCocos.iCocos-SettingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCocos－Setting.app/iCocos－Setting";
+			};
+			name = Debug;
+		};
+		B54C74971BF9D9C700446625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iCocos－SettingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iCocos.iCocos-SettingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCocos－Setting.app/iCocos－Setting";
+			};
+			name = Release;
+		};
+		B54C74991BF9D9C700446625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iCocos－SettingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iCocos.iCocos-SettingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iCocos－Setting";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B54C749A1BF9D9C700446625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iCocos－SettingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iCocos.iCocos-SettingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iCocos－Setting";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B54C74601BF9D9C700446625 /* Build configuration list for PBXProject "iCocos－Setting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54C74901BF9D9C700446625 /* Debug */,
+				B54C74911BF9D9C700446625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B54C74921BF9D9C700446625 /* Build configuration list for PBXNativeTarget "iCocos－Setting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54C74931BF9D9C700446625 /* Debug */,
+				B54C74941BF9D9C700446625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B54C74951BF9D9C700446625 /* Build configuration list for PBXNativeTarget "iCocos－SettingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54C74961BF9D9C700446625 /* Debug */,
+				B54C74971BF9D9C700446625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B54C74981BF9D9C700446625 /* Build configuration list for PBXNativeTarget "iCocos－SettingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54C74991BF9D9C700446625 /* Debug */,
+				B54C749A1BF9D9C700446625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B54C745D1BF9D9C700446625 /* Project object */;
+}
