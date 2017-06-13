@@ -7,9 +7,9 @@
 
 版权声明：欢迎转载，请贴上源地址：
 
-*（博客最新地址）： https://icocos.github.io/
+* （博客最新地址）： https://icocos.github.io/
 
-* (iOS梦工厂)   ： http://al1020119.github.io/
+*  (iOS梦工厂)   ： http://al1020119.github.io/
 
 QQ：2211523682
 
